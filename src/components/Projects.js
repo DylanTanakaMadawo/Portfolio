@@ -3,6 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/chat-img1.png";
+import projImg5 from "../assets/img/web-img1.jpg";
+import projImg6 from "../assets/img/web-img2.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 // import 'animate.css';
 import TrackVisibility from "react-on-screen";
@@ -13,31 +16,37 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg1,
+      projectLink: "https://dylanmadawo.netlify.app/",
     },
     {
-      title: "Business Startup",
+      title: "Personal Websites",
       description: "Design & Development",
       imgUrl: projImg2,
+      projectLink: "https://dylanmadawo.netlify.app/",
     },
     {
-      title: "Business Startup",
+      title: "Business Websites",
       description: "Design & Development",
       imgUrl: projImg3,
+      projectLink: "https://artist-site-zw.netlify.app/",
     },
     {
-      title: "Business Startup",
+      title: "Chat Applications",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
+      projectLink: "https://chat-zw.netlify.app/",
     },
     {
-      title: "Business Startup",
+      title: "Blogs",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: projImg5,
+      projectLink: "https://dylanmadawo.netlify.app/",
     },
     {
-      title: "Business Startup",
+      title: "Job Search App",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: projImg6,
+      projectLink: "https://basa-zw.netlify.app/",
     },
   ];
 
@@ -55,11 +64,13 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Projects I have done include websites for Businesses or
+                    personal websites. I have also created fun chatting apps,
+                    inspired by apps such as What's App from Meta. I have made
+                    E-Commerce websites for small businesses around my area and
+                    got really good feedback from both client and their users.
+                    You will find some of the projects I have done on the tabs I
+                    have created below.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -90,7 +101,7 @@ export const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="section">
+                      {/* <Tab.Pane eventKey="section">
                         <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing
                           elit. Cumque quam, quod neque provident velit, rem
@@ -107,7 +118,7 @@ export const Projects = () => {
                           eligendi dicta officiis asperiores delectus quasi
                           inventore debitis quo.
                         </p>
-                      </Tab.Pane>
+                      </Tab.Pane> */}
                     </Tab.Content>
                   </Tab.Container>
                 </div>

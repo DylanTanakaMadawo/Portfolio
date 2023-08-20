@@ -30,7 +30,7 @@ export const MyNavBar = () => {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#home" target="_blank">
           <img src={logo} alt="Logo" />
           {/* <h1 style={{ color: "white" }}>LOGO</h1> */}
         </Navbar.Brand>
@@ -41,6 +41,7 @@ export const MyNavBar = () => {
           <Nav className="me-auto" style={{ marginLeft: "50px" }}>
             <Nav.Link
               href="#home"
+              target="_blank"
               className={
                 activeLink === "home" ? "active navbar-link" : "navbar-link"
               }
@@ -50,6 +51,7 @@ export const MyNavBar = () => {
             </Nav.Link>
             <Nav.Link
               href="#skills"
+              target="_blank"
               className={
                 activeLink === "skills" ? "active navbar-link" : "navbar-link"
               }
@@ -59,6 +61,7 @@ export const MyNavBar = () => {
             </Nav.Link>
             <Nav.Link
               href="#projects"
+              target="_blank"
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }
@@ -69,13 +72,13 @@ export const MyNavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.facebook.com/tmadawo/">
+              <a href="https://www.facebook.com/tmadawo/" target="_blank">
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="https://www.facebook.com/tmadawo/">
+              <a href="https://www.facebook.com/tmadawo/" target="_blank">
                 <img src={navIcon2} alt="" />
               </a>
-              <a href="https://www.instagram.com/dendrxx_/">
+              <a href="https://www.instagram.com/dendrxx_/" target="_blank">
                 <img src={navIcon3} alt="" />
               </a>
             </div>
