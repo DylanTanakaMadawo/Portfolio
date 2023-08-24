@@ -12,11 +12,14 @@ export const Footer = () => {
         <Row className="align-items-center">
           {/* <MailchimpForm /> */}
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="Dylan" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://www.facebook.com/tmadawo/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/dylan-tanaka-madawo-7a349320a/"
+                target="_blank"
+              >
                 <img src={navIcon1} alt="Icon" />
               </a>
               <a href="https://www.facebook.com/tmadawo/" target="_blank">
