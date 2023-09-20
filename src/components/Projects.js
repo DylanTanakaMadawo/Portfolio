@@ -37,7 +37,7 @@ export const Projects = () => {
       projectLink: "https://suncrestsolar.netlify.app/",
     },
     {
-      title: "Blogs",
+      title: "E-Commerce Websites",
       description: "Design & Development",
       imgUrl: projImg5,
       projectLink: "https://dylanmadawo.netlify.app/",
