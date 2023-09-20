@@ -1,11 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
+import projImg1 from "../assets/img/portfolioimg.png";
 import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/chat-img1.png";
+import projImg3 from "../assets/img/artistimg.png";
+import projImg4 from "../assets/img/suncrestimg.png";
 import projImg5 from "../assets/img/web-img1.jpg";
-import projImg6 from "../assets/img/web-img2.jpg";
+import projImg6 from "../assets/img/basaimg.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 // import 'animate.css';
 import TrackVisibility from "react-on-screen";
@@ -31,10 +31,10 @@ export const Projects = () => {
       projectLink: "https://artist-site-zw.netlify.app/",
     },
     {
-      title: "Chat Applications",
+      title: "Digital Marketing Website",
       description: "Design & Development",
       imgUrl: projImg4,
-      projectLink: "https://chat-zw.netlify.app/",
+      projectLink: "https://suncrestsolar.netlify.app/",
     },
     {
       title: "Blogs",
