@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/portfolioimg.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/artistimg.png";
-import projImg4 from "../assets/img/suncrestimg.png";
+import projImg4 from "../assets/img/suncrestimg2.png";
 import projImg5 from "../assets/img/web-img1.jpg";
 import projImg6 from "../assets/img/basaimg.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
